@@ -1,0 +1,9 @@
+.banner-container{
+    margin-top: 20px;
+    position: relative;
+  }
+  .banner{
+    background-color: rgba(215, 215, 221, 0.13);
+    position: relative;
+    left: 15%;
+ }
