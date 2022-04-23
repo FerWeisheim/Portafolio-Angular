@@ -7,3 +7,18 @@
     position: relative;
     left: 15%;
  }
+ 
+
+@media(max-width:380px) {
+  .datos{
+    position: relative;
+    text-align: center;
+  }
+    #yo{
+      position: relative;
+     left:25%;
+    }
+  #discord {          
+    display: none;     
+  } 
+ }

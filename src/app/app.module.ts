@@ -11,6 +11,14 @@ import { EducacionComponent } from './Educacion/educacion/educacion.component';
 import { BannerComponent } from './Banner/banner/banner.component';
 import { SobremiComponent } from './SobreMi/sobremi/sobremi.component';
 import { ContactoComponent } from './Contacto/contacto/contacto.component';
+import { EditContactComponent } from './Modal-Contact/edit-contact/edit-contact.component';
+import { DeleteContactComponent } from './Modal-Contact/delete-contact/delete-contact.component';
+import { DeleteSkillComponent } from './Modal-Skills/delete-skill/delete-skill.component';
+import { EditSkillComponent } from './Modal-Skills/edit-skill/edit-skill.component';
+import { EditProyectComponent } from './Modal-Proyects/edit-proyect/edit-proyect.component';
+import { DeleteProyectComponent } from './Modal-Proyects/delete-proyect/delete-proyect.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +31,15 @@ import { ContactoComponent } from './Contacto/contacto/contacto.component';
     EducacionComponent,
     BannerComponent,
     SobremiComponent,
-    ContactoComponent
+    ContactoComponent,
+    EditContactComponent,
+    DeleteContactComponent,
+    DeleteSkillComponent,
+    EditSkillComponent,
+    EditProyectComponent,
+    DeleteProyectComponent,
+
+ 
   ],
   imports: [
     BrowserModule
