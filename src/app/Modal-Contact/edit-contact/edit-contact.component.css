@@ -1,0 +1,8 @@
+.is-required:after {
+    content: '*';
+    color: red;
+  }
+  h5{
+    position: relative;
+    left: 40%;
+}

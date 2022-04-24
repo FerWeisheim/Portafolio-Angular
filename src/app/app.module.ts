@@ -17,6 +17,9 @@ import { DeleteSkillComponent } from './Modal-Skills/delete-skill/delete-skill.c
 import { EditSkillComponent } from './Modal-Skills/edit-skill/edit-skill.component';
 import { EditProyectComponent } from './Modal-Proyects/edit-proyect/edit-proyect.component';
 import { DeleteProyectComponent } from './Modal-Proyects/delete-proyect/delete-proyect.component';
+import { EditEducationComponent } from './Modal-Education/edit-education/edit-education.component';
+import { DeleteEducationComponent } from './Modal-Education/delete-education/delete-education.component';
+
 
 
 
@@ -38,6 +41,9 @@ import { DeleteProyectComponent } from './Modal-Proyects/delete-proyect/delete-p
     EditSkillComponent,
     EditProyectComponent,
     DeleteProyectComponent,
+    EditEducationComponent,
+    DeleteEducationComponent,
+   
 
  
   ],
